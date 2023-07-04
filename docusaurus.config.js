@@ -69,8 +69,8 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://larapush.com/pricing/',
+            label: 'Buy Now',
             position: 'right',
           },
         ],
