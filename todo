@@ -1,12 +1,12 @@
-- Add clear chache 
+- Add clear chache - done
 - Add youtube embeds
 - add images 
 - Add AMP Integration 
 - add features
-   - Quick Push
+   - Quick Push - done
    - Add/Edit domains - done 
    - Code integration - done
-   - import/export
+   - import/export - done
    - create a campaign 
    - statics 
    - automation  - done 
@@ -14,5 +14,5 @@
         - Autopush
 
     - segmentation - done
-    - settings
-    - server status                   
+    - settings - done
+    - server status - done               

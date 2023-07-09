@@ -6,6 +6,8 @@ sidebar_position: 3
 
 To simplify the domain integration process, Larapush offers a convenient "Clone" feature. Follow these steps:
 
+![multipledomains](/img/multipledomains.png)
+
 1. After successfully integrating your first domain, navigate to the Larapush Panel.
 2. Locate the "Clone" option and click on it.
 3. Enter the new domain name you wish to integrate.

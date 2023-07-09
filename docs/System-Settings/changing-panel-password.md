@@ -1,0 +1,13 @@
+---
+sidebar_position: 1
+---
+
+# Chaning Panel Password
+
+It's straightforward. Simply go to 'Settings', find the password box, enter your new password, and click on update profile. 
+
+:::note
+
+Remember to also update your password in the LaraPush Plugin settings.
+
+:::

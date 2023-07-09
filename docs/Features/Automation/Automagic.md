@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 2
 ---
 
 # AutoMagic Push
@@ -14,7 +14,12 @@ Here are the steps to create an AutoMagic Push:
 
 1. Navigate to 'Automation', choose 'AutoMagic Push', and then click on 'Create AutoPush Campaign'.
 
-2. Choose your target audience. By default, it is set to 'All'. You have three options for selecting your audience: 'All', 'Manually', and 'Segment'.
+![automagic](/img/automagic.png)
+
+2. **Choose your target audience.** By default, it is set to 'All'. You have three options for selecting your audience: 'All', 'Manually', and 'Segment'.
+
+![audience](/img/audience.png)
+
 
 3. Choose the type of AutoPush. There are two types: 'Dynamic' and 'Static'. 
 
@@ -23,17 +28,23 @@ Here are the steps to create an AutoMagic Push:
  
 Input the URL where your latest posts appear each time you publish them. Then, enter the range number from which the automation will select articles. Finally, click on 'Validate WordPress API'.
 
+![automagic](/img/autopushdynamicblog.png)
+
+
  **for static**
 
 If you wish to send a static push notification automatically, select 'Static'. Then, fill in the fields such as title, description, image URL, and others as per your requirements.
+![automagic](/img/autopushstaticblog.png)
 
-4. Select the timing for your notifications. We use the crontab format for scheduling because it provides flexibility and precision in setting up the timing.  We have provided a few examples for you. If you find them suitable, you can use them.
+4. Set AutoPush Name and Select the timing for your notifications. We use the crontab format for scheduling because it provides flexibility and precision in setting up the timing.  We have provided a few examples for you. If you find them suitable, you can use them.
 
 :::tip
 
 You can use crontab.guru to generate cron-based scheduling code. This tool simplifies the process of creating cron expressions for your scheduled tasks.
 
 :::
+
+![autopushname](/img/autopushname.png)
 
 
 5. Preview and Save. 
