@@ -1,8 +1,8 @@
 ---
 sidebar_position: 9
 ---
-# Schedule Notification ##
 
+# Schedule Notification
 
 A **Schedule Notification** feature allows you to set up push notifications to be sent at a specific future time. This can be particularly useful for planning your communication strategy in advance and ensuring that your notifications are sent at the most optimal times for your audience.
 
