@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'larapush', // Usually your GitHub org/user name.
+  organizationName: 'LaraPush', // Usually your GitHub org/user name.
   projectName: 'doccs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -66,7 +66,8 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            href: '/docs/getting-started/installation',
+            label: 'Installation',
           },
           {
             href: 'https://larapush.com/pricing/',
@@ -82,40 +83,55 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/category/getting-started',
+              },
+              {
+                label: 'Installation',
+                to: '/docs/getting-started/installation',
+              },
+              {
+                label: 'Features',
+                to: '/docs/category/features',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Company',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Website',
+                href: 'https://larapush.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Pricing',
+                href: 'https://larapush.com/pricing/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Features',
+                href: 'https://larapush.com/features/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Help',
             items: [
-              
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Contact Us',
+                href: 'https://larapush.com/contact/',
+              },
+              {
+                label: 'How to buy',
+                href: 'https://larapush.com/how-to-buy/',
+              },
+              {
+                label: 'Customer Support',
+                href: 'https://support.larapush.com/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} LaraPush`,
       },
       prism: {
         theme: lightCodeTheme,

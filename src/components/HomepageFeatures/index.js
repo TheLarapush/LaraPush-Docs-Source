@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
+    title: 'One Time Cost',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        LaraPush is unique due to its one-time payment model, allowing for limitless usage with zero recurring fees. This feature truly sets it apart.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Truly Unlimited',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        With LaraPush, You can add Unlimited Websites, with Unlimited Subscribers and You can send Unlimited Notifications for Unlimited Period Of time.
+      </>
+    ),
+  },
+  {
+    title: '100% Self Hosted',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        LaraPush is a fully self-hosted push notification tool. This means you have complete control and ownership over your subscriber data on your own server.
       </>
     ),
   },

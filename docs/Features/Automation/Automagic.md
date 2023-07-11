@@ -14,27 +14,27 @@ Here are the steps to create an AutoMagic Push:
 
 1. Navigate to 'Automation', choose 'AutoMagic Push', and then click on 'Create AutoPush Campaign'.
 
-![automagic](/img/automagic.png)
+ ![automagic](/img/automagic.png)
 
 2. **Choose your target audience.** By default, it is set to 'All'. You have three options for selecting your audience: 'All', 'Manually', and 'Segment'.
 
-![audience](/img/audience.png)
+ ![audience](/img/audience.png)
 
 
-3. Choose the type of AutoPush. There are two types: 'Dynamic' and 'Static'. 
+3. Choose the type of AutoPush. There are two types: **Dynamic** and **Static**. 
 
 
- **for Dynamic**
- 
-Input the URL where your latest posts appear each time you publish them. Then, enter the range number from which the automation will select articles. Finally, click on 'Validate WordPress API'.
+  - **Dynamic**
 
-![automagic](/img/autopushdynamicblog.png)
+  Input the URL where your latest posts appear each time you publish them. Then, enter the range number from which the automation will select articles. Finally, click on 'Validate WordPress API'.
 
+ ![automagic dynamic notification](/img/autopushdynamicblog.png)
 
- **for static**
+  - **Static**
 
-If you wish to send a static push notification automatically, select 'Static'. Then, fill in the fields such as title, description, image URL, and others as per your requirements.
-![automagic](/img/autopushstaticblog.png)
+  If you wish to send a static push notification automatically, select 'Static'. Then, fill in the fields such as title, description, image URL, and others as per your requirements.
+
+ ![automagic static notification](/img/autopushstaticblog.png)
 
 4. Set AutoPush Name and Select the timing for your notifications. We use the crontab format for scheduling because it provides flexibility and precision in setting up the timing.  We have provided a few examples for you. If you find them suitable, you can use them.
 
@@ -44,9 +44,9 @@ You can use crontab.guru to generate cron-based scheduling code. This tool simpl
 
 :::
 
-![autopushname](/img/autopushname.png)
+ ![autopushname](/img/autopushname.png)
 
 
 5. Preview and Save. 
 
-Preview your notification on the right side of the screen. If everything looks correct, save the AutoMagic Push by clicking on the 'Save' button.
+Preview your notification on the right side of the screen. If everything looks correct, save the AutoMagic Push by clicking on the **Save** button.

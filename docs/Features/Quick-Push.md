@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Quick Push
 
-Quick Push" is a feature that allows you to send push notifications to your subscribers quickly and easily. This can be particularly useful when you need to send out a notification immediatel. 
+The **Quick Push** feature allows you to send push notifications to your subscribers quickly and easily. This can be particularly useful when you need to send out a notification immediatel. 
 
 ## How to Send Quick Push?
 

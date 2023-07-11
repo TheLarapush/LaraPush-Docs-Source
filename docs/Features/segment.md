@@ -4,10 +4,7 @@ sidebar_position: 1
 
 # Segmentation 
 
-
-The segmentation feature in LaraPush is a powerful tool that allows you to group your audience based on various criteria, enabling you to send targeted notifications to specific subsets of your user base. Here's a list of segmenations:
-
-## Types Of Segmentations ## 
+The **Segmentation** feature in LaraPush is a powerful tool that allows you to group your audience based on various criteria, enabling you to send targeted notifications to specific subsets of your user base. Here's a list of user properties, enabling you to segment your audience based on these specific criteria:
 
 1. **URL**: This refer to the specific page or set of pages on your website where a user subscribed to your notifications. For example, if a user subscribed while on a page about "gardening tips", you might segment them into a "gardening" group and send them notifications related to gardening.
 
@@ -29,9 +26,9 @@ The segmentation feature in LaraPush is a powerful tool that allows you to group
 
 By segmenting your audience based on these criteria, you can ensure that the right notifications are being sent to the right users, which can lead to higher engagement and conversion rates
 
-## what is Conditions ##
+## How to use conditions to choose criteria?
 
-The "AND" condition in segmentation allows you to narrow down your target audience by combining multiple criteria. Each additional condition you add further refines the group of users you're targeting.
+You can use the and condition in segmentation allows you to narrow down your target audience by combining multiple criteria. Each additional condition you add further refines the group of users you're targeting.
 
 ![conditions](/img/conditions.png)
 
@@ -52,22 +49,31 @@ However, it's important to note that while the "AND" condition can help you targ
 ## Preview Segment Size
 
 Once you've defined your conditions, use estimate button to preview the size of the segment. This feature will give you an estimate of how many users currently meet all the conditions you've set.
-![estimate](/img/estimate.png)
+
+ ![estimate](/img/estimate.png)
+
 The process usually involves the tool scanning your user base according to the segmentation conditions you've defined, and then providing an estimate of the number of users that meet those conditions. This can help you understand the potential reach of your notifications for that segment.
 
 If the estimated result is larger or smaller than you expected, you can adjust the segmentation conditions accordingly before saving. For example, if the segment is too small, you might want to broaden your conditions to include more users. Conversely, if the segment is too large, you might want to narrow down your conditions to target a more specific group.
 
-:::note
+:::info
 
 You may have to finalize and store your segment before the system can calculate and display the estimated number of users it includes.
 
 :::
 
-## How to Create Segment ##
+## How to Create Segment?
 
-Navigate to 'Segment' and click on 'Create New Segment'. Enter your segment name, select domains (for multiple domains, click on 'Selective' and choose your domains), choose the property, check the estimate.
+Navigate to **Segment** and click on **Create New Segment**.
+
+1. Enter your segment name.
+2. Select domains (for multiple domains, click on **Selective** and choose your domains),
+3. Choose the properties and conditions
+4. Check the estimate.
 
 ![segment](/img/segmenttypes.png)
 
- Once you're satisfied with the size and specificity of your segment, you can finalize and save your segmentation. 
+Once you're satisfied with the size and specificity of your segment, you can finalize and save your segmentation.
+
+You can now use this segment directly in while [**Creating Campaigns**](../getting-started/create-campaign.md)
 

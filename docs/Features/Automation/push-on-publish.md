@@ -18,12 +18,12 @@ The "Push on Publish" feature automatically sends a notification to your subscri
 In all these scenarios, the "Push on Publish" feature helps to maintain regular engagement with your audience and ensures that your latest content gets the attention it deserves.
 
 
-## How to Use Push On Publish ##
+## How to Use Push On Publish ?
 
 The "Push on Publish" feature is exclusively available for WordPress sites and only to Pro Plan Users. To set it up, navigate to your LaraPush Plugin Settings, check the "Push on Publish" box, and you're all set.
 
 :::tip
 
-Are you using the Startup Plan? Upgrade your plan now to access the "Push on Publish" feature and enhance your user engagement.
+Are you using the Startup Plan? [Upgrade your plan](https://larapush.com/upgrade) now to access the "Push on Publish" feature and enhance your user engagement.
 
 :::
