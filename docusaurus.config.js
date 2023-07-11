@@ -66,8 +66,8 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            href: '/docs/getting-started/installation',
-            label: 'Installation',
+            href: '/docs/getting-started',
+            label: 'Getting Started',
           },
           {
             href: 'https://larapush.com/pricing/',
