@@ -66,8 +66,22 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            href: '/docs/getting-started',
+            href: '/docs/category/getting-started',
             label: 'Getting Started',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            href: '/docs/category/features',
+            label: 'Features',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            href: '/docs/category/system-settings',
+            label: 'System Settings',
           },
           {
             href: 'https://larapush.com/pricing/',
