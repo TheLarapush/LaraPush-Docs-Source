@@ -33,7 +33,7 @@ Creating a campaign in LaraPush is straightforward. There are multiple ways to s
 
 You can also schedule notifications, read [this article](../features/shedule-notification) to know how.
 
-### Adding CTA Buttons
+## Adding CTA Buttons
 
 You can personalize your notifications by adding buttons. To do this, click on 'Advanced Settings', then add the button text, button logo URL, and button launch URL.
 ![buttons](/img/buttons.png)
