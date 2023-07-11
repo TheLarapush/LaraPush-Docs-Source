@@ -31,4 +31,4 @@ jobs:
           destination-repository-name: 'Larapush-Docs'
           user-email: larapushcom@gmail.com
           target-branch: 'main'
-          target-directory: 'guide'
+          target-directory: ''
