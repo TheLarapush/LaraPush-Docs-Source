@@ -74,4 +74,4 @@ Navigate to **Segment** and click on **Create New Segment**.
 
 Once you're satisfied with the size and specificity of your segment, you can finalize and save your segmentation.
 
-You can now use this segment directly in while [**Creating Campaigns**](../getting-started/create-campaign.md)
+You can now use this segment directly in while [**Creating Campaigns**](../getting-started/create-campaign)
