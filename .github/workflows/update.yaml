@@ -20,7 +20,7 @@ jobs:
       - name: Install NPM dependencies if cache miss
         if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         run: npm ci
-      - run: npm run build
+      - run: npm run build:all
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
