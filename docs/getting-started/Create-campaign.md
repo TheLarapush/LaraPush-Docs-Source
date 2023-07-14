@@ -6,13 +6,13 @@ sidebar_position: 4
 
 Creating a campaign in LaraPush is straightforward. There are multiple ways to send notifications. Please refer to the table below for details.
 
-| METHODS                     | Documentation Link                                              |
-| --------------------------- | --------------------------------------------------------------- |
-| Direcly From Campaigns Page | This article                                                    |
-| Through Wordpress Plugin    | [Read Documentation](wordpress-pugin.md)                        |
-| Push On Publish             | [Read Documentation](../features/automation/push-on-publish.md) |
-| AutoMagic Push              | [Read Documentation](../features/automation/automagic.md)       |
-| Quick Push                  | [Read Documentation](../features/quick-push.md)                 |
+| METHODS                     | Documentation Link                                           |
+| --------------------------- | ------------------------------------------------------------ |
+| Direcly From Campaigns Page | This article                                                 |
+| Through Wordpress Plugin    | [Read Documentation](wordpress-pugin)                        |
+| Push On Publish             | [Read Documentation](../features/automation/push-on-publish) |
+| AutoMagic Push              | [Read Documentation](../features/automation/automagic)       |
+| Quick Push                  | [Read Documentation](../features/quick-push)                 |
 
 ## How to Create New Campaign
 
