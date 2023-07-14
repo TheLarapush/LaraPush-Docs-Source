@@ -73,7 +73,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            href: '/docs/category/features',
+            href: '/docs/category/features/',
             label: 'Features',
           },
           {
@@ -106,7 +106,7 @@ const config = {
               },
               {
                 label: 'Features',
-                to: '/docs/category/features',
+                to: '/docs/category/features/',
               },
             ],
           },
