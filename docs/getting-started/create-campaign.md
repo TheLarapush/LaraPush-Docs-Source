@@ -6,13 +6,13 @@ sidebar_position: 4
 
 Creating a campaign in LaraPush is straightforward. There are multiple ways to send notifications. Please refer to the table below for details.
 
-| METHODS                     | Documentation Link                                           |
-| --------------------------- | ------------------------------------------------------------ |
-| Direcly From Campaigns Page | This article                                                 |
-| Through Wordpress Plugin    | [Read Documentation](wordpress-pugin)                        |
-| Push On Publish             | [Read Documentation](../features/automation/push-on-publish) |
-| AutoMagic Push              | [Read Documentation](../features/automation/automagic)       |
-| Quick Push                  | [Read Documentation](../features/quick-push)                 |
+| METHODS                     | Documentation Link                                            |
+| --------------------------- | ------------------------------------------------------------- |
+| Direcly From Campaigns Page | This article                                                  |
+| Through Wordpress Plugin    | [Read Documentation](../getting-started/wordpress-plugin/)    |
+| Push On Publish             | [Read Documentation](../features/automation/push-on-publish/) |
+| AutoMagic Push              | [Read Documentation](../features/automation/automagic/)       |
+| Quick Push                  | [Read Documentation](../features/quick-push/)                 |
 
 ## How to Create New Campaign
 
@@ -22,7 +22,7 @@ Creating a campaign in LaraPush is straightforward. There are multiple ways to s
 
 ![Create campaign](/img/createcampaign.png)
 
-3. **Select Audience:** Choose your target audience. By default, it is set to 'All'. You have three options for selecting your audience **All**, **Manually**, and **Segment** → [_Read here about segments_](../features/segment)
+3. **Select Audience:** Choose your target audience. By default, it is set to 'All'. You have three options for selecting your audience **All**, **Manually**, and **Segment** → [_Read here about segments_](../features/segment/)
 
 ![audience](/img/audience.png)
 
@@ -31,7 +31,7 @@ Creating a campaign in LaraPush is straightforward. There are multiple ways to s
 
 ![Live Preview](/img/livepreview.png)
 
-You can also schedule notifications, read [this article](../features/shedule-notification) to know how.
+You can also schedule notifications, read [this article](../features/shedule-notification/) to know how.
 
 ## Adding CTA Buttons
 

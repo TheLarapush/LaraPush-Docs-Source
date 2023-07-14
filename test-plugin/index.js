@@ -17,13 +17,46 @@ module.exports = function (context, options) {
 
         // Select any existing canonical links
         const canonicalLink = $('head > link[rel="canonical"]');
+        const ogUrl = $('head > meta[property="og:url"]');
 
-        canonicalLink.each(function () {
+        // Update href and og:url if necessary
+        [canonicalLink, ogUrl].forEach((element) => {
+          if (element.length > 0) {
+            element.each(function () {
+              let href = $(this).attr('href') || $(this).attr('content');
+              if (!href.endsWith('/')) {
+                href = `${href}/`;
+                $(this).is('[href]')
+                  ? $(this).attr('href', href)
+                  : $(this).attr('content', href);
+              }
+            });
+          }
+        });
+
+        // Update hreflang links
+        const hrefLangLinks = $('head > link[hreflang]');
+        hrefLangLinks.each(function () {
           let href = $(this).attr('href');
           if (!href.endsWith('/')) {
             $(this).attr('href', `${href}/`);
           }
         });
+
+        // Update internal links starting with /guide
+        $('a[href^="/guide"]').each(function () {
+          let href = $(this).attr('href');
+          if (!href.endsWith('/')) {
+            $(this).attr('href', `${href}/`);
+          }
+        });
+
+        // If no canonical link is found, add your own
+        if (canonicalLink.length === 0) {
+          $('head').append(
+            `<link rel="canonical" href="${context.siteConfig.url}${context.baseUrl}" />`
+          );
+        }
 
         // Write the modified HTML back to the file
         fs.writeFileSync(htmlFile, $.html());
