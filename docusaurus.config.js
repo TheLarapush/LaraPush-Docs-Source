@@ -151,6 +151,32 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '1E67GIS4N7',
+
+        // Public API key: it is safe to commit it
+        apiKey: 'c0446e20fe0923ec4d7e74ddb3627e9b',
+
+        indexName: 'larapush',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+
+        //... other Algolia params
+      },
     }),
 };
 
