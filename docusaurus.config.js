@@ -172,6 +172,11 @@ const config = {
         //... other Algolia params
       },
     }),
+
+  plugins: [
+    // without options:
+    './test-plugin',
+  ],
 };
 
 module.exports = config;
