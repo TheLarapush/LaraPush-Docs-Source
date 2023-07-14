@@ -139,8 +139,8 @@ const config = {
                 href: 'https://larapush.com/how-to-buy/',
               },
               {
-                label: 'Customer Support',
-                href: 'https://support.larapush.com/',
+                label: 'Sitemap',
+                href: 'https://larapush.com/guide/sitemap.xml',
               },
             ],
           },
