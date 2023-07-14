@@ -160,8 +160,7 @@ const config = {
 
         indexName: 'larapush',
 
-        // Optional: see doc section below
-        contextualSearch: true,
+        contextualSearch: false,
 
         // Optional: Algolia search parameters
         searchParameters: {},
