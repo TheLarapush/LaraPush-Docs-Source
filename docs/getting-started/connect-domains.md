@@ -14,6 +14,6 @@ To simplify the website integration process, LaraPush offers a convenient "Clone
 3. Enter the new domain name you wish to integrate.
 4. Save the settings to proceed.
 5. By cloning the domain, you can utilize the same Firebase project without going through the lengthy setup process each time.
-6. Follow the [Code Integration](code-integration) process to add the code to your website.
+6. Follow the [Code Integration](code-integration.md) process to add the code to your website.
 
 Once the code integration is done, your website is ready to engage your audience with push notifications.
