@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Chaning Panel Password
+# Changing Panel Password
 
 It's straightforward. Simply go to 'Settings', find the password box, enter your new password, and click on update profile. 
 
