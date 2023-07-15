@@ -174,7 +174,7 @@ const config = {
 
   plugins: [
     // without options:
-    './test-plugin',
+    // './test-plugin',
   ],
 };
 

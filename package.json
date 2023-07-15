@@ -13,9 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "adjust-sitemap": "node adjustSitemap.js",
-    "remove-script": "node removeScript.js",
     "change-dir-to-guide": "rm -rf guide; mv build guide",
-    "build:all": "run-s build adjust-sitemap remove-script change-dir-to-guide"
+    "build:all": "run-s build change-dir-to-guide"
   },
   "dependencies": {
     "@docusaurus/core": "2.4.1",
