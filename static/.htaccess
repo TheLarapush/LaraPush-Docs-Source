@@ -1,3 +1,17 @@
 RewriteEngine On
+
+# If the request is for a directory with an index.html, don't remove trailing slash
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}index.html -f
+RewriteRule ^ - [L]
+
+# If the request is not for a directory, remove trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /guide/$1 [L,R=301]
+
+# If the request is not for a file, add .html to the end of the URI if it does not already have .html
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !\.html$
 RewriteRule ^(.*)$ $1.html [L]
+
+DirectoryIndex index.html
