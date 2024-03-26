@@ -20,7 +20,7 @@ Creating a campaign in LaraPush is straightforward. There are multiple ways to s
 
 2. **Launch URL** At this point, input the URL for the content you want to notify about. Click 'Fetch Content' to automatically gather the relevant information, like title and description, from the URL. This feature is a time-saver and ensures your notification matches the linked content. However, If you want more control over the notification content, you can manually enter the notification title, message, and image URL, giving you more flexibility to customize the notification as needed.
 
-![Create campaign](/img/createcampaign.png)
+![Create campaign](/img/create-campaign.png)
 
 3. **Select Audience:** Choose your target audience. By default, it is set to 'All'. You have three options for selecting your audience **All**, **Manually**, and **Segment** → [_Read here about segments_](../features/segment)
 
