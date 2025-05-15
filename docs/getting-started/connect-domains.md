@@ -2,6 +2,25 @@
 sidebar_position: 2
 sidebar_label: Website Registration
 ---
+The **Domains** page in LaraPush lets you add, manage, and monitor all your websites, view subscriber stats, and perform quick actions like cloning domain details, pausing collection, [cleaning unsubcribed users](features/cleaning-unsubcribed-users), re-sync domain or deleting domain. 
+
+---
+
+# 📝 Registering Websites
+
+To add your domain, go to the **Domains** section, which offers three options:
+
+- **View/Modify**
+- **Integration**
+- **Import/Export**
+
+### Steps to Add a Domain
+
+1. Go to **View/Modify** and click on the **Add Domain** button.
+2. Fill in the Firebase details.  
+   > Upon purchasing LaraPush, you will receive a detailed PDF and video guide explaining how to complete this step.
+3. ✅ Done!  
+   The next step is to integrate your website with LaraPush. Go to [**Code Integration**](code-integration).
 
 # Registering Multiple Websites
 
