@@ -10,6 +10,9 @@ This guide walks you through how to interpret and use the **Update** tab.
 
 ---
 
+![update](/img/update.png)
+
+
 ## 🔄 Accessing the Update Panel
 
 Navigate to:  

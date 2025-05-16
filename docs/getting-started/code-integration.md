@@ -7,11 +7,10 @@ sidebar_label: Code Integration
 
 Integrate LaraPush push notifications with your website easily. This guide covers integration steps for:
 
-- [Blogger](#blogger-integration)
-- [iOS (PWA)](#ios-pwa-integration)
-- [WordPress](#wordpress-integration)
-- [AMP Pages](#amp-integration)
-- [Manual Code Integration](/manual-code-integration)
+- [Blogger](/docs/getting-started/blogger-integration)
+- [iOS (PWA)](/docs/getting-started/ios-integration)
+- [WordPress](/docs/getting-started/wordpress-plugin)
+- [Manual Code Integration](/docs/getting-started/manual-code-integration)
 
 ---
 ## 📌 Common Requirement

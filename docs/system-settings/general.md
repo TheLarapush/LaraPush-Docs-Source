@@ -26,6 +26,9 @@ Control the delivery speed of push notifications:
 - **Tip**: Decrease if the panel crashes under high load.
 - ⚠️ *Note: Sending speed also depends on FCM (Firebase Cloud Messaging) API response time.*
 
+![general](/img/general.png)
+
+
 ---
 
 ## 🔄 Auto Code Integration

@@ -7,13 +7,16 @@ sidebar_label: IOS Code Integration
 # LaraPush iOS Push Notification Integration Guide
 
 LaraPush provides a seamless way to integrate push notifications into your Progressive Web App (PWA), including support for iOS. This guide explains **both methods**: starting from scratch with a new PWA or integrating notifications into an existing one.
----
+
+![ios](/img/ios.png)
+
+
 
 ## 🔧 Option 1: New PWA Setup
 
 Use this method if your website is **not currently a PWA** and you want to configure both the PWA and push notifications at once.
 
----
+
 
 ### Step 1: Open iOS Integration in LaraPush
 
@@ -26,9 +29,8 @@ From the available options, choose:
 
 This will guide you through setting up your app structure, manifest, icons, and iOS prompt configuration.
 
-**🖼️ Screenshot Placeholder: New PWA Setup Selection**
 
----
+
 
 ### Step 2: Fill Out Configuration Details
 
@@ -56,9 +58,9 @@ You’ll be asked to provide basic setup information:
 
 Once you’ve completed these fields, click **Save**.
 
-**🖼️ Screenshot Placeholder: PWA Setup Form and Save Button**
+![new-ios](/img/new-ios.png)
 
----
+
 
 ### Step 3: Preview the iOS Prompt
 
@@ -66,9 +68,8 @@ After saving, the right panel will display a **real-time preview** of the iOS pr
 
 You can tweak and save again as needed.
 
-**🖼️ Screenshot Placeholder: iOS Prompt Preview on Phone Frame**
 
----
+
 
 ### Step 4: Add Integration Code to Your Site
 
@@ -80,11 +81,10 @@ This includes:
 - Loading LaraPush script
 - Initializing push notification configuration
 
-**🖼️ Screenshot Placeholder: HTML Code Block Location in Website**
 
 (*Note: The full code will be auto-generated in your dashboard. No need to write it manually.*)
 
----
+
 
 ### Step 5: Download and Upload Required Files
 
@@ -100,9 +100,8 @@ LaraPush provides a ZIP file containing three key files needed to complete the P
 2. Extract the contents.
 3. Upload these files to the **public root directory** of your website hosting server.
 
-**🖼️ Screenshot Placeholder: ZIP File and Upload Confirmation**
 
----
+
 
 ### Step 6: Save Configuration and Test
 
@@ -117,7 +116,6 @@ Visit your website from an iOS device (Safari). You should now:
 Check the final confirmation box:
 ✅ *"I confirm that PWA notification popup is visible in my application."*
 
-**🖼️ Screenshot Placeholder: Final Confirmation Step**
 
 ---
 
@@ -125,7 +123,7 @@ Check the final confirmation box:
 
 Use this method if you already have a functional PWA and want to add **iOS push notification support** using LaraPush.
 
----
+
 
 ### Step 1: Select Existing PWA Setup
 
@@ -136,9 +134,8 @@ Choose the second option:
 
 This lets you skip PWA file setup and directly configure prompts and service worker connections.
 
-**🖼️ Screenshot Placeholder: Already Have PWA Selection**
 
----
+
 
 ### Step 2: Fill Prompt Details and Service Worker Path
 
@@ -155,9 +152,9 @@ Complete the form fields:
 
 Click **Save** to proceed.
 
-**🖼️ Screenshot Placeholder: Configuration and Save Section**
+![alreadyios](/img/already-ios.png)
 
----
+
 
 ### Step 3: Add LaraPush Script to Your HTML
 
@@ -165,9 +162,8 @@ Insert the LaraPush embed code inside the `<head>` tag of your website.
 
 This connects your domain to LaraPush and enables prompt logic.
 
-**🖼️ Screenshot Placeholder: Script Placement in HTML Head**
 
----
+
 
 ### Step 4: Update Your Existing Service Worker
 
@@ -175,11 +171,8 @@ Open your existing service worker file and add the push config provided by LaraP
 
 This connects your app to Firebase and LaraPush’s backend, enabling delivery of push messages.
 
-**🖼️ Screenshot Placeholder: Service Worker Update Example**
 
 Make sure to use the exact details shown in your dashboard (project ID, keys, etc.).
-
----
 
 ### Step 5: Test and Confirm iOS Prompt
 
@@ -193,4 +186,3 @@ After saving everything:
 Finally, return to LaraPush and check:  
 ✅ *"I confirm that PWA notification popup is visible in my application."*
 
-**🖼️ Screenshot Placeholder: iOS Notification Prompt Live**

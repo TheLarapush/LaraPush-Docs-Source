@@ -1,9 +1,10 @@
 ---
 sidebar_position: 6
+sidebar_label: LP Links
 ---
 # LaraPush - LP Links (Landing Page Links) Integration Guide
 
-LaraPush's **LP Links** feature allows you to collect push notification subscribers from any landing page or URL you choose. This tool works similarly to the YouTube integration but is even more flexible—you can link any webpage, product page, video, article, or offer behind a subscription prompt.
+LaraPush's **LP Links** feature allows you to collect push notification subscribers from any landing page or URL you choose. This tool works similarly to the YouTube integration but is even more flexible. you can link any webpage, product page, video, article, or offer behind a subscription prompt.
 
 ---
 
@@ -46,7 +47,7 @@ You will see a table listing all previously generated LP links, along with:
 - Subscribers
 - Creation Time
 
-**🖼️ Screenshot Placeholder: LP Links Management Dashboard**
+![lp links](/img/lp-links.png)
 
 ---
 
@@ -70,7 +71,7 @@ You’ll be asked to fill:
 
 Click **Create Link** to generate a short LP URL.
 
-**🖼️ Screenshot Placeholder: Create Link Form and Prompt Preview**
+![makelplinks](/img/make-lp-links.png)
 
 ---
 
@@ -78,7 +79,7 @@ Click **Create Link** to generate a short LP URL.
 
 Once created, LaraPush generates a custom short link like:
 
-`https://demo.larapush.sh/sl/XXXXX`
+`https://demo.larapush.com/sl/XXXXX`
 
 You can share this anywhere, such as:
 
@@ -90,7 +91,6 @@ You can share this anywhere, such as:
 
 Whenever users open it, the prompt appears first, and if subscribed, they are redirected to the original link.
 
-**🖼️ Screenshot Placeholder: LP Link Copy and Usage**
 
 ---
 
@@ -113,8 +113,7 @@ You can now configure:
 
 Click **Generate Script** to create the JavaScript snippet.
 
-**🖼️ Screenshot Placeholder: Full Page Script Configuration**
-
+![fullpagescript](/img/full-page-script.png)
 ---
 
 ### Step 2: Add Script to Your Website
@@ -123,7 +122,6 @@ Copy the generated JavaScript and place it in the `<head>` of any HTML page wher
 
 This allows you to use the prompt logic on your own URLs while still building subscribers through LaraPush.
 
-**🖼️ Screenshot Placeholder: Script Output and Copy Button**
 
 ---
 

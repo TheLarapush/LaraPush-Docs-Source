@@ -1,7 +1,8 @@
 ---
 sidebar_position: 2
+sidebar_label: Youtube Push
 ---
-# LaraPush - YouTube Push Notification Integration Guide
+# LaraPush YouTube Push Notification Integration Guide
 
 LaraPush allows content creators and brands to collect push notification subscribers directly from their YouTube audience. This enables automatic notifications for new videos—sent directly to subscribers' devices even when they're not on YouTube.
 
@@ -38,8 +39,7 @@ You will see a list of all previously connected YouTube channels along with metr
 - Status
 - Action Buttons
 
-**🖼️ Screenshot Placeholder: YouTube Channel Table Overview**
-
+![youtube-push](/img/youtube-push.png)
 ---
 
 ### Step 2: Add a New YouTube Channel
@@ -60,7 +60,7 @@ You will be taken to a form that asks for:
 
 Click **Add Channel** to save and generate your push link.
 
-**🖼️ Screenshot Placeholder: Add YouTube Channel Form and Prompt**
+![addyoutubepush](/img/add-youtube-push.png)
 
 ---
 

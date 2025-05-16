@@ -1,11 +1,11 @@
-# Blogger Integration with LaraPush
-
 ---
 sidebar_position: 3
-sidebar_label: Code Integration
+sidebar_label: Blogger Integration
 ---
 
-this guide helps you integrate **LaraPush push notifications** into your **Blogger website** using the demo setup interface.
+# Blogger Integration with LaraPush
+
+this guide helps you integrate **LaraPush push notifications** into your **Blogger website**. 
 
 ---
 
@@ -28,8 +28,7 @@ Navigate to the **Blogger Code Integration** section in the LaraPush dashboard. 
 - **Deny Button Text**:  
   *Deny*
 
-**🖼️ Screenshot Placeholder: Configuration Panel**
-
+![blogger](/img/blogger.png)
 ---
 
 ## Step 2: Add Integration Code to Blogger
@@ -39,8 +38,7 @@ Paste the code snippet **just before the closing `</html>` tag** in your Blogger
 
 > 📌 *Code not shown here for clarity. Please copy it directly from the LaraPush panel.*
 
-**🖼️ Screenshot Placeholder: Code Snippet Panel**
-
+![add-blogger](/img/add-blogger.png)
 ---
 
 ## Step 3: Confirm Popup Visibility
@@ -52,7 +50,6 @@ Once you see it live:
 - ✅ Tick the checkbox:  
   *“I confirm that popup is visible in my website.”*
 
-**🖼️ Screenshot Placeholder: Confirmation Section**
 
 ---
 

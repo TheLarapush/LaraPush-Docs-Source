@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 ---
-# 🧹 Clean Unsubscribed Users
+# Clean Unsubscribed Users
 
 LaraPush provides a quick and easiest way to remove unsubscribed users from your domain's push notification list. This helps maintain a clean and accurate subscriber base, reduce payload size, and improve delivery rates.
 

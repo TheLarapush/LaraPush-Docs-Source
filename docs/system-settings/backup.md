@@ -35,7 +35,7 @@ This panel gives you an organized view of your backup history and allows you to:
 
 Backups are **automatically deleted after 7 days** unless downloaded or exported.
 
-**🖼️ Screenshot Placeholder: Backup Table Overview**
+![backup](/img/backup.png)
 
 ---
 
@@ -69,7 +69,6 @@ You can configure:
 
 Once all fields are filled and verified, click **Save Configuration** to activate automation.
 
-**🖼️ Screenshot Placeholder: Configure Auto Backup Modal**
 
 ---
 
