@@ -56,6 +56,4 @@ Use this feature if:
 - You logged in on a shared/public system
 - You want to enforce a secure reset across sessions
 
-**🖼️ Screenshot Placeholder: Profile Settings Panel View**
-
 ---

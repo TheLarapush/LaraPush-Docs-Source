@@ -36,8 +36,6 @@ The panel displays two version blocks:
 
 If an update is available, it will be highlighted here with a clear **Update** button.
 
-**🖼️ Screenshot Placeholder: System Update Tab with Versions**
-
 ---
 
 ## 🔁 Performing a System Update
@@ -52,7 +50,6 @@ To update your LaraPush panel:
 
 The update is typically seamless, but it's recommended to:
 
-- **Backup your system** before updating
-- **Ensure stable internet/server connection**
+- **Backup your system** before updating, We recommend to use [Google Drive](../system-settings/backup.md) for backup.
 
 ---

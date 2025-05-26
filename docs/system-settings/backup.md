@@ -61,7 +61,8 @@ You can configure:
 - **Schedule**: Choose from Daily, Weekly, or Monthly backups
 - **Google Drive Integration**:
   - Enable/Disable
-  - Select an email associated with your Google account OR 
+  - Select an email associated with your Google account
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>OR</b></p>
   - Upload a **Service Account JSON file** for secure Google Drive access
 - **License Key**:
   - Required for authentication
