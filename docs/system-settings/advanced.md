@@ -15,7 +15,6 @@ Navigate to:
 
 This tab is specifically labeled as “Advanced” because the options here can directly affect how the LaraPush panel performs under load or handles data from third-party integrations.
 
-**🖼️ Screenshot Placeholder: Advanced Settings Tab**
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 sidebar_label: LP Links
 ---
 # LaraPush - LP Links (Landing Page Links) Integration Guide
@@ -132,6 +132,5 @@ In the LP Links dashboard, you can:
 - View the number of subscribers per link
 - Track click-through performance
 - Delete or edit existing LP links
-- Identify source link performance across channels
 
 ---

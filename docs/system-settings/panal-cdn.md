@@ -11,5 +11,5 @@ When sending a notification, an image URL is required. If you don't use a CDN fo
 
 Navigate to 'Settings', find the **USE CDN** option, and turn it on than click on save.
 
- ![cdn](/img/cdn.png)
+
 

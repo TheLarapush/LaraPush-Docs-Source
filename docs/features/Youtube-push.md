@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: Youtube Push
 ---
 # LaraPush YouTube Push Notification Integration Guide
@@ -82,7 +82,6 @@ You can now share this link in:
 - Social media bios
 - Channel banner or pinned comment
 
-**🖼️ Screenshot Placeholder: Generated LP Link and Tracking Table**
 
 ---
 
@@ -97,6 +96,5 @@ From the YouTube dashboard in LaraPush, you can:
 
 Each entry also shows the creation date and channel name for easy identification.
 
-**🖼️ Screenshot Placeholder: Channel Actions and Stats View**
 
 ---

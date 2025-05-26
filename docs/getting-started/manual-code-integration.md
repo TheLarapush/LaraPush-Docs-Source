@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-sidebar_label: Code Integration
+sidebar_position: 4
+sidebar_label: Manual Code Integration
 ---
 
 # Adding Code to your Website
