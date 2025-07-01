@@ -1,6 +1,6 @@
 ---
-sidebar_position: 8
-sidebar_label: Youtube Push
+sidebar_position: 4
+sidebar_label: YouTube Push
 ---
 # LaraPush YouTube Push Notification Integration Guide
 

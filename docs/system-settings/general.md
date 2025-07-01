@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 sidebar_label: 'General Settings'
 ---
 # LaraPush – General Settings Guide
@@ -49,6 +49,13 @@ Control the delivery speed of push notifications:
 
 When sending a notification, an image URL is required. If you don't use a CDN for your image URL, it creates additional requests to your server, which can slow down your server. Therefore, using a CDN is essential to enhance the notification sending experience. 
 - toggle the CDN button to use it. 
+ What is CDN and Why It Is Important? 
+
+When sending a notification, an image URL is required. If you don't use a CDN for your image URL, it creates additional requests to your server, which can slow down your server. Therefore, using a CDN is essential to enhance the notification sending experience.
+
+## How to use CDN in LaraPush?
+
+Navigate to 'Settings', find the **USE CDN** option, and turn it on than click on save.
 
 
 ---
