@@ -10,6 +10,9 @@ This guide walks you through each element shown in the **Settings > Language & R
 
 ---
 
+![language](/img/language.png)
+
+
 ## 🌐 Language Settings
 
 ### **Language**

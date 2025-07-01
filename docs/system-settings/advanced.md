@@ -7,7 +7,7 @@ sidebar_label: 'Advanced Setting'
 The **Advanced Settings** panel in LaraPush gives you deeper control over performance behavior and external plugin compatibility. These settings are generally intended for experienced users or developers and should be adjusted cautiously.
 
 ---
-
+![advanced](/img/advanced.png)
 ## ⚙️ Accessing Advanced Settings
 
 Navigate to:  
