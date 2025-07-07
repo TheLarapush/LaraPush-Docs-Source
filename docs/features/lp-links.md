@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 22
 sidebar_label: LP Links
 ---
-# LaraPush - LP Links (Landing Page Links) Integration Guide
+# LaraPush - LP Links (LaraPush Links)
 
-LaraPush's **LP Links** feature allows you to collect push notification subscribers from any landing page or URL you choose. This tool works similarly to the YouTube integration but is even more flexible. you can link any webpage, product page, video, article, or offer behind a subscription prompt.
+LaraPush Links feature allows you to collect push notification subscribers from any webpage you own. You will get a short link that you can share anywhere, and when users click it, they will be prompted to subscribe to your push notifications. You can also add conditional redirects to your links, so that users are redirected to a different page based on their subscription status.
 
 ---
 

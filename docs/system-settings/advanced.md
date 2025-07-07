@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 25
 sidebar_label: 'Advanced Setting'
 ---
 # Advanced Settings Guide

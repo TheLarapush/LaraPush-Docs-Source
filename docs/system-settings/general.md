@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 sidebar_label: 'General Settings'
 ---
 # LaraPush – General Settings Guide
