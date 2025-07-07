@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 8
 ---
 
 # Creating Campaigns
@@ -9,7 +9,7 @@ Creating a campaign in LaraPush is straightforward. There are multiple ways to s
 | METHODS                     | Documentation Link                                           |
 | --------------------------- | ------------------------------------------------------------ |
 | Direcly From Campaigns Page | This article                                                 |
-| Through Wordpress Plugin    | [Read Documentation](../getting-started/wordpress-plugin)    |
+| Through Wordpress Plugin    | [Read Documentation](../getting-started/Integration/wordpress-plugin)    |
 | Push On Publish             | [Read Documentation](../features/automation/push-on-publish) |
 | AutoMagic Push              | [Read Documentation](../features/automation/automagic)       |
 | Quick Push                  | [Read Documentation](../features/quick-push)                 |

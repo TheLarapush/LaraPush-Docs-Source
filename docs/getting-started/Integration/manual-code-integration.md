@@ -1,12 +1,12 @@
 ---
-sidebar_position: 3
-sidebar_label: Code Integration
+sidebar_position: 4
+sidebar_label: Manual Code Integration
 ---
 
 # Adding Code to your Website
 
 :::tip
-Use [LaraPush WordPress Plugin](https://wordpress.org/plugins/push-notifications-by-larapush/) to simplify code integration in 1 click for Pro users! Forget manual code insertion in your websites. Just install the plugin and it will do the integration for you.
+Use [LaraPush WordPress Plugin](https://wordpress.org/plugins/push-notifications-by-larapush/) to simplify code integration in 1 click for WordPress users!
 :::
 
 Once you have successfully added your domain, you will be directed to the Code Integration tab within your LaraPush Panel. Follow these steps to complete the integration process:

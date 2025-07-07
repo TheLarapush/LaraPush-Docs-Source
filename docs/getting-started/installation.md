@@ -15,7 +15,7 @@ Also, self-hosted servers are flexible and can grow with you. You can change the
 | -------------------- | ---------------------------- |
 | **Server Type**      | Virtual Private Server (VPS) |
 | **Access Type**      | Root                         |
-| **Operating System** | Ubuntu 20.04                 |
+| **Operating System** | Ubuntu 24.04                 |
 | **RAM**              | 1 GB                         |
 
 :::note
