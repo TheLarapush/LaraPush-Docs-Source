@@ -19,3 +19,7 @@ A **Schedule Notification** feature allows you to set up push notifications to b
 Navigate to 'Campaign', then 'Create New Campaign'. Find the 'Send Notification Now' checkbox and select 'No'. This will give you the option to choose a date and time. Select these according to your needs and schedule your notification.
 
 ![schedule](/img/schedule.png)
+
+Select the appropriate timezone from the dropdown to ensure your notification is delivered at the correct local time. You can search for your timezone by typing its name (e.g., `Asia/Kolkata`) or scroll through the list.
+
+![schedule](/img/schedule-timezone.png)
