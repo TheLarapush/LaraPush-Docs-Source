@@ -33,7 +33,7 @@ Please note that this is a basic requirement table. Depending on your specific n
 
 2. **Sign Up & Set Up Payment:** Register a new account on the provider's site and set up a payment method. Ensure your card is enabled for international transactions if necessary.
 
-3. **Create Your Server:** Now it's time to create your server. Choose Ubuntu 20.04 as the operating system and make sure to set a secure root password for the server, as it will be needed for integration with LaraPush. A standard 1GB server, which typically costs around $6 per month, should be sufficient for millions of subscribers.
+3. **Create Your Server:** Now it's time to create your server. Choose Ubuntu 24.04 as the operating system and make sure to set a secure root password for the server, as it will be needed for integration with LaraPush. A standard 1GB server, which typically costs around $6 per month, should be sufficient for millions of subscribers.
 
 4. **Configure the DNS:** Access your hosting control panel or your domain registrar and navigate to the DNS/Nameservers section.
    Its upto you to decide how you want to access your Panel, You can configure domain or subdomain, If you are want to use subdomain to access your LaraPush Panel you just have to add "Push" on A record.
