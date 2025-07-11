@@ -6,11 +6,44 @@ sidebar_position: 15
 
 The **Import & Export** feature in LaraPush allows you to import and export subscribers data to or from your LaraPush Server. This can be particularly useful for backing up your data, transferring data between different systems.
 
-## How to do Import/Export?
+### Before importing/exporting, 
+You must clone the source domain if you’re planning to **migrate subscribers** between domains.
 
-Navigate to **Domains**, select **Import and Export**, then choose the domains from which you wish to import or export data.
+1. Go to the **Domains** tab.
+2. Click on the clone icon (📋) beside the domain that already has subscribers (the source).
 
-![Import Export](/img/import-export.png)
+![Source Domain](/img/source-domain.png)
+3. A new domain (destination) will be created with a fresh configuration ready to receive the imported data.
+
+![Destination Domain](/img/destination-domain.png)
+
+### Access Import/Export
+
+Navigate to the **Domains** section on the sidebar and select **Import/Export** from the left menu.
+Then choose the domain you want to **export from** (source) or **import into** (destination) using the corresponding buttons.
+
+![Export Button Highlighted](/img/export.png)
+![Import Export Action Buttons](/img/import.png)
+
+---
+
+### Export Subscribers
+
+Clicking the red **Export** button will download your current domain's subscribers into a backup file. This can be useful for:
+
+- Creating offline backups.
+- Migrating data to another LaraPush domain/server.
+
+---
+
+### Import Subscribers
+
+To restore or upload a backup:
+
+1. Click the blue **Import** button beside the destination domain.
+2. You'll be taken to the **Import Subscribers** screen.
+
+![Upload Exported File](/img/upload-exported-file.png)
 
 ## Can I Import/Migrate subscribers from another service using this feature?
 

@@ -11,7 +11,10 @@ LaraPush provides a quick and easiest way to remove unsubscribed users from your
 
 1. Go to the **Domains** section (`Domains > View/Modify`).
 2. Locate the domain you want to clean.
-3. In the **Action** column, click the **gray trash icon with a broom** 🧹 labeled as `Clean Unsubscribed Users`.
+3. In the **Action** column, click the **yellow trash icon with a broom** 🧹 labeled as `Clean Unsubscribed Users`.
+
+![Unsubscribed Users](/img/unsubscribed-users.png)
+
 4. A confirmation popup will appear:
    > **Are you sure to cleanup unsubscribed users?**
 5. Click **OK** to proceed, or **Cancel** to abort.
