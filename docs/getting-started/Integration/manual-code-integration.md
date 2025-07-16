@@ -11,8 +11,8 @@ Use [LaraPush WordPress Plugin](https://wordpress.org/plugins/push-notifications
 
 Once you have successfully added your domain, you will be directed to the Code Integration tab within your LaraPush Panel. Follow these steps to complete the integration process:
 
-1. **Select Domain** Type: Navigate to  to domains, click on integration, Choose whether your website is normal or AMP (Accelerated Mobile Pages)version. This selection will take you to the respective customization page.
- ![codeintegration](/img/codeintegration.png)
+1. **Select Domain Type:** Navigate to Domains, click on Integration, and choose your platform type — WordPress (for WordPress sites), Website (custom/regular sites), iOS (Apple web support), AMP (Accelerated Mobile Pages), or Blogger (Google Blogger). This selection will take you to the respective customization page.
+ ![codeintegration](/img/code-integration.png)
 
 2. **Customize and Save:** Explore the customization options available and make any desired changes. 
 There  are 4 types of prompt available, **Custom prompt, Custom prompt with Backdrop, Default/Native Prompt, Full screen Prompt.** 

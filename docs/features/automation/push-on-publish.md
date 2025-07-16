@@ -22,6 +22,8 @@ In all these scenarios, the "Push on Publish" feature helps to maintain regular 
 
 The "Push on Publish" feature is exclusively available for WordPress sites and only to Pro Plan Users. To set it up, navigate to your LaraPush Plugin Settings, check the "Push on Publish" box, and you're all set.
 
+![Push On Publish](/img/push-on-publish.png)
+
 :::tip
 
 Are you using the Startup Plan? [Upgrade your plan](https://larapush.com/upgrade) now to access the "Push on Publish" feature and enhance your user engagement.

@@ -10,3 +10,4 @@ Our [WordPress plugin](https://wordpress.org/plugins/push-notifications-by-larap
 
 Furthermore, you can integrate your domain with our WordPress plugin. This is a straightforward process, and to help you understand it better, we have prepared a video tutorial. We strongly recommend watching this video as it provides detailed, step-by-step instructions that will guide you through the integration process. This way, you can ensure that you're utilizing the full capabilities of our WordPress plugin.
 
+![wordpressplugin](/img/wordpress-setup.png)
