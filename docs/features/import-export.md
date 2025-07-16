@@ -6,22 +6,25 @@ sidebar_position: 15
 
 The **Import & Export** feature in LaraPush allows you to import and export subscribers data to or from your LaraPush Server. This can be particularly useful for backing up your data, transferring data between different systems.
 
-### Before importing/exporting, 
+### Before importing/exporting,
+
 You must copy the **Firebase configuration** from source panel and create the same domain manually on the destination panel using the same domain name.
+
+:::info
+
+Images with a blue border represent the **Source panel**, and images with a red border represent the **Destination panel**.
+
+:::
 
 1. Go to the **Domains > View/Modify** tab.
 2. Click on the domain from which you want to export subscribers (source panel).
 
-![Source Domain](/img/source-domain.png)
-3. Click the Unhide button to reveal the Firebase configuration, you will be prompted to enter your license key.
+![Source Domain](/img/source-domain.png) 3. Click the Unhide button to reveal the Firebase configuration, you will be prompted to enter your license key.
 
-![Source Domain](/img/license-key.png)
-4. After successful validation, copy the entire Firebase configuration from the **"Paste Firebase Code Here for Shortcut"** section.
+![Source Domain](/img/license-key.png) 4. After successful validation, copy the entire Firebase configuration from the **"Paste Firebase Code Here for Shortcut"** section.
 
-![Source Domain](/img/copy-firebase-code.png)
-5. Navigate to the panel where you want to import (migrate) the subscribers (destination panel) and click **"Add Domain"**.  
+![Source Domain](/img/copy-firebase-code.png) 5. Navigate to the panel where you want to import (migrate) the subscribers (destination panel) and click **"Add Domain"**.  
 6. Scroll to the bottom and paste the copied Firebase configuration in the **"Paste Firebase Code Here for Shortcut"** field. Ensure that, the domain name is the same as the source panel domain and click **Save**.
-
 
 ![Destination Domain](/img/paste-firebase-code.png)
 
