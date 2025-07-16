@@ -9,6 +9,8 @@ This guide provides a breakdown of each element within the **Settings > Profile*
 
 ---
 
+![Profile Section](/img/profile-section.png)
+
 ## 👤 Basic Account Information
 
 ### **Name**
