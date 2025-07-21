@@ -34,7 +34,6 @@ Navigate to the **Domains** section on the sidebar and select **Import/Export** 
 Then choose the domain you want to **export from** (source) or **import into** (destination) using the corresponding buttons.
 
 ![Export Button Highlighted](/img/export.png)
-![Import Export Action Buttons](/img/import.png)
 
 ---
 
@@ -52,12 +51,16 @@ Clicking the red **Export** button will download your current domain's subscribe
 To restore or upload a backup:
 
 1. Click the blue **Import** button beside the destination domain.
+
+![Import Export Action Buttons](/img/import.png)
+
 2. You'll be taken to the **Import Subscribers** screen.
 
 ![Upload Exported File](/img/upload-exported-file.png)
 
+
 ## Can I Import/Migrate subscribers from another service using this feature?
 
-No, This Feature is particularly useful for creating data backups or moving data between different LaraPush systems. And you can't migrate using this because other services use a different sending method and payload structure hence. However, We offer a Migration Add-On.
+**No**, This Feature is particularly useful for creating data backups or moving data between different LaraPush systems. And you can't migrate using this because other services use a different sending method and payload structure hence. However, We offer a Migration Add-On.
 
 If you want to import subscribers from another service, you can check with LaraPush team for the "Migration Add-On". This LaraPush helps you move from your current push notification service to LaraPush without losing any subscribers. It transfers all your subscriber data from your old service to LaraPush, ensuring a smooth transition and continuous communication with your audience.
