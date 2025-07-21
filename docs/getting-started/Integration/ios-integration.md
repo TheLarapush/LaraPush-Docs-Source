@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-sidebar_label: IOS Code Integration
+sidebar_label: IOS Integration
 ---
 
 
