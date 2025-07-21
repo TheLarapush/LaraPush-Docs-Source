@@ -28,7 +28,7 @@ To add your domain, go to the **Domains** section, which offers three options:
 
 To simplify the website integration process, LaraPush offers a convenient "Clone" feature. Follow these steps:
 
-![multipledomains](/img/multipledomains.png)
+![multipledomains](/img/clone-feature.png)
 
 1. After successfully integrating your first domain, navigate to the LaraPush Panel.
 2. Locate the "Clone" option and click on it.

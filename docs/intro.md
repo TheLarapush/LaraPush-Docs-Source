@@ -14,6 +14,6 @@ Or **Try LaraPush Now!** with **[LaraPush.com](https://larapush.com)**.
 
 ## What you'll need
 
-- Ubuntu 20.04 VPS
+- Ubuntu 24.04 VPS
 - LaraPush License Key
 - Domain/Subdomain for Your Panel
