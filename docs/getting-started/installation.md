@@ -14,13 +14,19 @@ Also, self-hosted servers are flexible and can grow with you. You can change the
 | Requirement          | Details                      |
 | -------------------- | ---------------------------- |
 | **Server Type**      | Virtual Private Server (VPS) |
-| **Access Type**      | Root                         |
+| **Access Type**      | sudo                         |
 | **Operating System** | Ubuntu 24.04                 |
 | **RAM**              | 1 GB                         |
 
 :::note
 
 Please note that this is a basic requirement table. Depending on your specific needs, more resources might be needed. Always consider your individual use case when choosing server specifications.
+
+If you do not have the root password but are able to access your server via SSH, you can create or reset the root user password by running the following command:
+
+```bash
+sudo bash -c "$(wget -qO- https://cdn.larapush.com/uploads/allow-root-login.sh)"
+```
 
 :::
 
