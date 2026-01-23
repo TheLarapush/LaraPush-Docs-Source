@@ -40,7 +40,7 @@ If your Firebase project is **deleted**, all subscribers collected under that pr
 
 ---
 
-## Same Account vs Different Accounts
+## Do I need to create Firebase Projects in same Google or different Google accounts?
 
 | Option | Pros | Cons |
 |--------|------|------|
