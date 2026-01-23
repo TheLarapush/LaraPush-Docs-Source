@@ -24,11 +24,19 @@ Projects using the same Firebase credentials can be combined later if needed.
 
 ## What If Credentials Are Revoked?
 
-If your Firebase project is deleted or credentials are revoked:
+**If credentials are revoked** (but project still exists):
+1. All domains using that project will be temporarily affected
+2. Generate new service account credentials from Firebase Console
+3. Update credentials in LaraPush dashboard
+4. Everything returns to normal
 
-1. **All domains** using that project will be affected
-2. **Recovery**: Update service account credentials in LaraPush dashboard
-3. Everything returns to normal once credentials are updated
+:::danger
+If your Firebase project is **deleted**, all subscribers collected under that project are **permanently lost**. To recover:
+1. Restore the Firebase project immediately (if within Google's recovery window)
+2. Remove all existing service account credentials from the project
+3. Create new service account credentials
+4. Update the new credentials in LaraPush dashboard
+:::
 
 ---
 
@@ -51,6 +59,6 @@ There is **no functional difference** in reliability between these options. Choo
 - **Tier 2 (Medium)**: Grouped Firebase projects (2-3 per project)  
 - **Tier 3 (Small)**: Shared Firebase project
 
-:::note
-Subscribers are tied to your domain, not the Firebase project. Changing Firebase projects doesn't require users to re-subscribe.
+:::danger
+Subscribers are tied to both your **domain and Firebase project**. If you change the Firebase project for a domain, all subscribers collected with the previous Firebase project will no longer receive notifications. Only change Firebase projects if absolutely necessary.
 :::
