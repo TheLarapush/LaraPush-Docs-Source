@@ -30,10 +30,6 @@ If your Firebase project is deleted or credentials are revoked:
 2. **Recovery**: Update service account credentials in LaraPush dashboard
 3. Everything returns to normal once credentials are updated
 
-:::info
-Always keep backup copies of your Firebase service account credentials in a secure location.
-:::
-
 ---
 
 ## Same Account vs Different Accounts
