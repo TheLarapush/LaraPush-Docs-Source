@@ -8,16 +8,16 @@ Best practices for managing Firebase projects at scale with LaraPush.
 
 ---
 
-## When to Split Firebase Projects
+## Do You Need Separate Firebase Projects for each domain?
 
-| Scenario | Recommendation |
-|----------|---------------|
-| **Large Projects** (5M+ subscribers) | Use a **dedicated Firebase project** |
-| **Small Projects** (under 5M combined) | Can share the **same Firebase project** |
-| **100+ Small Projects** | Split when combined subscribers approach **5M+** |
+| Your Setup | Recommendation |
+|------------|----------------|
+| **High-traffic domains** (expecting 5M+ subscribers) | Use a **dedicated Firebase project** for each domain |
+| **Multiple small domains** (combined under 5M subscribers) | Share a **single Firebase project** across domains |
+| **100+ small domains** | Split into separate Firebase projects when combined subscribers approach **5M+** |
 
 :::tip
-Projects using the same Firebase credentials can be combined later if needed.
+Domains sharing the same Firebase project can be merged into a single LaraPush installation later if needed.
 :::
 
 ---
@@ -47,17 +47,9 @@ If your Firebase project is **deleted**, all subscribers collected under that pr
 | **Multiple projects in same account** | Easier management, simpler billing | — |
 | **Multiple Firebase accounts** | Maximum isolation | More complex, multiple logins |
 
-:::tip
 There is **no functional difference** in reliability between these options. Choose based on your preference.
-:::
 
 ---
-
-## Quick Tips
-
-- **Tier 1 (5M+ subs)**: Individual Firebase projects
-- **Tier 2 (Medium)**: Grouped Firebase projects (2-3 per project)  
-- **Tier 3 (Small)**: Shared Firebase project
 
 :::danger
 Subscribers are tied to both your **domain and Firebase project**. If you change the Firebase project for a domain, all subscribers collected with the previous Firebase project will no longer receive notifications. Only change Firebase projects if absolutely necessary.
